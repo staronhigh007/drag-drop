@@ -1,0 +1,35 @@
+.main.container {
+  margin: 10px;
+  border: 2px solid;
+  width: 150px;
+  min-height: 50px;
+  min-width: 150px;
+}
+
+.main {
+  float: left;
+}
+
+.delete {
+  border: 1px solid;
+  margin: 20px;
+  padding: 20px;
+}
+
+.draggable {
+  cursor: move;
+}
+
+.dragobject {
+  padding: 5px;
+  margin: 20px;
+  background-color: bisque;
+}
+
+.dragging {
+  opacity: 0.5;
+}
+
+.delete {
+  cursor: pointer;
+}
